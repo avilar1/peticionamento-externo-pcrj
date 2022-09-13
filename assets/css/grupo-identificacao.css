@@ -12,6 +12,10 @@ dt + dd {
     margin-left: 4px;
 }
 
-dt dd, dt + dd {
+dl dd, dt + dd {
     margin-bottom: 20px;
+}
+
+dl:last-child {
+    margin-bottom: 0;
 }
