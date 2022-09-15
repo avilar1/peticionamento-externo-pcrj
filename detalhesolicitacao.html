@@ -107,13 +107,12 @@
       <div class="__formRow" id="9">
         <div class="__leftColumnForm" id="9">Descrição</div>
         <div class="__rightColumnForm __mostra-mais-pai" id="2">
-          <div class="__firstText">Lorem ipsum dolor sit amet. qui ipsam natus eum tempore voluptatem! Sit iure dolores est totam vero nam
-            suscipit nemo et corporis suscipit qui quas rerum ut quia doloremque a consequatur voluptatem!</div>
+          
           <div class="collapse" id="collapseExample">
-            <div class="card card-body">
+            <div class="card card-body" id="descricaocard">
               Vel modi architecto eos incidunt tenetur qui laborum laudantium ab facilis voluptatem est dolores aut omnis rerum. Est atque 
               nostrum eos provident tempore et nesciunt soluta a quam nesciunt id reiciendis rerum ut voluptate molestias et repellat iste.
-              Nam doloremque dolor est quos voluptas sit dolorem laudantium rem enim alias et soluta debitis 33 officiis neque qui fugiat laboriosam.<br><br>
+              Nam doloremque dolor est quos voluptas sit dolorem laudantium rem enim alias et soluta debitis 33 officiis neque qui fugiat laboriosam.
               Lorem ipsum dolor sit amet. Id explicabo laudantium qui ipsam natus eum tempore voluptatem! Sit iure dolores est totam vero 
               nam suscipit nemo et corporis suscipit qui quas rerum ut quia doloremque a consequatur voluptatem! Vel modi architecto eos 
               incidunt tenetur qui laborum laudantium ab facilis voluptatem est dolores aut omnis rerum. Est atque nostrum eos provident 
@@ -122,8 +121,8 @@
             </div>
           </div>
           <div class="__mostrar-mais" id="mostramais">
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" id="btnMostrarMais" onclick="mostrar()">
-            Mostrar <span>Mais</span>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" id="btnMostrarMais">
+            Mostrar <span id="troca">mais</span>
           </a>
         </div>
         </div>
@@ -137,7 +136,7 @@
         <div class="__leftColumnForm" id="11"> Última Atualização</div> 
         <div class="__rightColumnForm" id="11">24/06/2022
           <div class="__statusRow">
-            <div class="__status1"><span class="__statusBtn">Indefirida</span> </div> <div class="__status2"><span class="__statusBtn">Arquivado</span></div> 
+            <div class="__status1"><span class="__statusBtn">Indeferida</span> </div> <div class="__status2"><span class="__statusBtn">Arquivada</span></div> 
           </div>
           <div class="__statusDiscription"> <div class="__statusRow"></div> A solicitação foi Indeferida.</div>
           <div class="__statusDiscription"> <div class="__statusRow"></div> Visualize aqui o <a href="index.html" id="encaminhamento"> despacho da decisão</a></div>
@@ -146,7 +145,7 @@
       </div>
      
     </div>
-    
+    <div class="__timeline">
     <div class="__containerTimeLine">
       <ul>
           <li>
@@ -196,7 +195,8 @@
               </div>
           </li>
       </ul>
-    </div> 
+    </div>
+  </div>
   
     </div>
   
@@ -204,7 +204,7 @@
   
 
 
-   <script src="js/cs/mostramais.js"></script>
+   <script src="js/ds/mostramais.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
