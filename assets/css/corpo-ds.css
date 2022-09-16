@@ -27,14 +27,14 @@ body main {
 
     min-height: 320px;
     max-width: 938px;
-    min-width: 310px;
+    min-width: 938px;
     height: auto;
     background-color: var(--offwhite-fundo);
     padding-top: 22px;
 
     box-shadow: none;
     border: solid 1px #ccc;
-    border-top: 0;
+    
     background-color: var(--branco);
     margin-top: 20px;
     font-weight: 500;
@@ -494,6 +494,8 @@ body a {
         margin-top: 0;
         padding-top: 16px;
         padding-bottom: 40px;
+        border-top: 0;
+        min-width: 320px;
     }
 
     .__formRow {
