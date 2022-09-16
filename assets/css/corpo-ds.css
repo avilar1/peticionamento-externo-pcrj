@@ -41,9 +41,19 @@ body main {
     line-height: 20px;
 }
 
+#retornar {
+    content: "";
+    background-image: url(../img/barb_arrow2.webp);
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+    color: #09B88A;
+    padding-left: 25px;
+
+}
+
 header h1 a {
     color: var(--azul-turquesa);
-    margin-right: 29px;
+    margin-right: 25px;
 }
 
 body a {
