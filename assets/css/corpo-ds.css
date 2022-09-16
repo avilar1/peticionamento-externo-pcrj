@@ -34,14 +34,25 @@ body main {
 
     box-shadow: none;
     border: solid 1px #ccc;
+    border-top: 0;
     background-color: var(--branco);
     margin-top: 20px;
     font-weight: 500;
     line-height: 20px;
 }
 
+header h1 a {
+    color: var(--azul-turquesa);
+    margin-right: 29px;
+}
+
 body a {
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+.__colunaum {
+    display: flex;
+
 }
 
 .card.card-body {
@@ -62,14 +73,15 @@ body a {
 }
 
 .__row-up{
-    content: "";
+        content: "";
     background-image: url(../img/Vector.webp);
     background-repeat: no-repeat;
-    background-position-y: 2px;
+    background-position-y: 3px;
     color: #09B88A;
     padding-left: 13px;
     padding-right: 5px;
     line-height: 20px;
+    margin-left: 5px;
 
 }
 
@@ -106,6 +118,7 @@ body a {
 .collapse.show + .__mostrar-mais {
     position: static;
     background: none;
+    height: auto
 }
 
 .collapse + .__mostrar-mais #btnMostrarMais,
@@ -139,6 +152,10 @@ body a {
     box-shadow: none;
     
     width: 100%;
+}
+
+.collapse.show + .__mostrar-mais a {
+    padding-bottom: 0px;
 }
 
 .__mostrar-mais a {
@@ -218,14 +235,16 @@ body a {
 
 #botãoDescrição {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .__statusRow {
     position: relative;
     padding-top: 20px;
     display: flex;
+    margin-left: -4px;
 }
+
 
 .collapse a {
     border: none;
@@ -462,19 +481,36 @@ body a {
 
     .__containerDetails {
         width: 100%;
+        margin-top: 0;
+        padding-top: 16px;
+        padding-bottom: 40px;
     }
 
     .__formRow {
         display: list-item;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .__formRow-mostra{
+        padding-bottom: 10px;
     }
 
     .__rightColumnForm {
-        margin-left: 0;
+        margin-left: 4px;
     }
 
     .__leftColumnForm {
         color:#7B7B7B;
-        padding: 20px 0 15px;
+        padding: 10px 0 5px;
+    }
+
+    .__colunaum {
+        display: flex;
+        flex-direction: column;
     }
 
     .__firstText {
@@ -487,12 +523,12 @@ body a {
         bottom: -25px;
     }
 
-    #esconde {
+    /* #esconde {
         display: none;
-    }
+    } */
 
     .__statusDiscription {
-        display: none;
+        margin-left: -4px;
     }
 
     .__timeline{
