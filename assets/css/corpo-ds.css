@@ -134,7 +134,7 @@ body a {
 .collapse + .__mostrar-mais #btnMostrarMais,
 .collapsing + .__mostrar-mais #btnMostrarMais {
     position: absolute;
-    bottom: -40px;
+    bottom: -38px;
     padding-top:5px ;
 }
 
@@ -435,15 +435,27 @@ body a {
     margin-left: 2px;
     z-index: 100;
 }
-
-
-@media (min-width: 780px) {
-    .__botao-sit {
-        text-align: start !important;
-        font-size: 12px !important;
-        /* border: none !important;  */
-    }
+.__botao-sit {
+    border-radius: 13px;
+    font-size: 15px;
+    text-align: start;
+    font-weight: 500;
+    min-height: 26px;
+    line-height: 20px;
+    margin-right: 10px;
 }
+
+/* @media (min-width: 780px) {
+    .__botao-sit {
+        border-radius: 13px;
+        font-size: 15px;
+        text-align: start;
+        font-weight: 500;
+        min-height: 26px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+} */
 
 
 @media (max-width: 992px) {
@@ -481,8 +493,7 @@ body a {
     }
 
     .__botao-sit {
-        font-size: 12px !important;
-        border-radius: 13px !important;
+        font-size: 12px;
     }
 
 }
