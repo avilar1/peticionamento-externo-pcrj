@@ -15,8 +15,6 @@ let acardbPOP = document.querySelectorAll('[data-acc="acardb"]')
 let asit = document.querySelectorAll('[data-acc="asit"]')
 
 
-
-
 let rowDesk = document.querySelectorAll('[data-desk="row"]')
 let numeroDaSolicitacao = document.querySelectorAll('[data-desk="nso"]')
 let linkNumeroDaSolicitacao = document.querySelectorAll('[data-desk="nsoD"]')
