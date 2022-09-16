@@ -39,6 +39,7 @@ body main {
     margin-top: 20px;
     font-weight: 500;
     line-height: 20px;
+    padding-bottom: 30px;
 }
 
 #retornar {
@@ -492,9 +493,9 @@ body a {
         background-color: var(--offwhite-fundo);
     }
 
-    .__botao-sit {
+    /* .__botao-sit {
         font-size: 12px;
-    }
+    } */
 
 }
 
