@@ -238,6 +238,7 @@ td .accordion-button {
     tbody.card,
     table tbody .card {
         width: 100%;
+        min-width: 290px;
     }
 
     .collapse {
