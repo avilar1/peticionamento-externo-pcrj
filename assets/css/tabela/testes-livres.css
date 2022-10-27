@@ -1,0 +1,81 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr {
+    display: table-row;
+    align-items: flex-start;
+    background-color: var(--azul-turquesa-variante);
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    border-width: 1px;
+    color: var(--branco);
+    font-size: 13px;
+    font-family: museo700;
+    justify-items: flex-start;
+    margin-bottom: 5px;
+    height: 72px;
+}
+
+thead th,
+td {
+    border-collapse: collapse;
+    padding: 15px 0;
+}
+
+thead th:first-child {
+    padding-left: 14px;
+}
+
+thead th:last-child {
+    padding-right: 14px;
+}
+
+tbody tr {
+    display: table-row;
+    min-height: 52px;
+    align-items: flex-start;
+    
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: 13px;
+    line-height: 20px;
+    justify-items: flex-start;
+    padding: 15px 14px;
+    margin-bottom: 5px;
+}
+tbody td {
+    background-color: var(--branco);
+}
+
+
+
+
+tbody .accordion-flush .accordion-item .accordion-button,
+.__card-corpo>a {
+    display: none;
+}
+
+
+
+.__card-corpo-desk {
+    display: table-row;
+}
+
+@media (max-width: 780px) {
+
+    tbody .accordion-flush .accordion-item .accordion-button {
+        display: flex;
+    }
+
+    .__card-corpo>a {
+        display: block;
+    }
+
+    thead,
+    .__card-corpo-desk {
+        display: none;
+    }
+}
