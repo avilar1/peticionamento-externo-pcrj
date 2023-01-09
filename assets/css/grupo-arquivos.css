@@ -69,6 +69,10 @@
     border-radius: 0.25rem;
 }
 
+.__close-inline-mobile {
+    display: none;
+}
+
 .__grupo-arquivo .__close-inline {
     margin-left: 2px;
 }
@@ -272,6 +276,8 @@ border-color: #cccccc  ;
     .__close-inline {
         display: none;
     }
+
+
 
     .__el-button {
         text-align: start ;

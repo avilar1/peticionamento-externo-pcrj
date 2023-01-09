@@ -11,7 +11,9 @@
     Array.prototype.slice.call(forms)
         .forEach(function (form) {
             form.addEventListener('submit', function (event) {
+                
                 if (!form.checkValidity()) {
+                    console.log(form.children[5].children[1].children[0].children)
                     event.preventDefault()
                     event.stopPropagation()
                     alerta.style.display = ""
@@ -29,8 +31,3 @@
             })
         })   
 })()
-// ,
-// (function () {
-//     'use strict'
-
-// })
